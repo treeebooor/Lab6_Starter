@@ -1,0 +1,392 @@
+{
+	"@context": "https://schema.org",
+	"@graph": [
+		{
+			"@type": "Organization",
+			"@id": "https://joyfoodsunshine.com/#organization",
+			"name": "JoyFoodSunshine",
+			"url": "https://joyfoodsunshine.com/",
+			"sameAs": [
+				"https://www.facebook.com/joyfoodsunshine/",
+				"https://www.instagram.com/joyfoodsunshine/",
+				"https://www.pinterest.com/joyfoodsunshine/",
+				"https://twitter.com/joyfoodsunshine"
+			],
+			"logo": {
+				"@type": "ImageObject",
+				"@id": "https://joyfoodsunshine.com/#logo",
+				"inLanguage": "en-US",
+				"url": "https://joyfoodsunshine.com/wp-content/uploads/2017/01/NewLogo.png",
+				"contentUrl": "https://joyfoodsunshine.com/wp-content/uploads/2017/01/NewLogo.png",
+				"width": 1958,
+				"height": 733,
+				"caption": "JoyFoodSunshine"
+			},
+			"image": { "@id": "https://joyfoodsunshine.com/#logo" }
+		},
+		{
+			"@type": "WebSite",
+			"@id": "https://joyfoodsunshine.com/#website",
+			"url": "https://joyfoodsunshine.com/",
+			"name": "JoyFoodSunshine",
+			"description": "Recipes for real life.",
+			"publisher": { "@id": "https://joyfoodsunshine.com/#organization" },
+			"potentialAction": [
+				{
+					"@type": "SearchAction",
+					"target": {
+						"@type": "EntryPoint",
+						"urlTemplate": "https://joyfoodsunshine.com/?s={search_term_string}"
+					},
+					"query-input": "required name=search_term_string"
+				}
+			],
+			"inLanguage": "en-US"
+		},
+		{
+			"@type": "ImageObject",
+			"@id": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#primaryimage",
+			"inLanguage": "en-US",
+			"url": "https://joyfoodsunshine.com/wp-content/uploads/2019/09/homemade-soft-pretzel-bites-recipe-1.jpg",
+			"contentUrl": "https://joyfoodsunshine.com/wp-content/uploads/2019/09/homemade-soft-pretzel-bites-recipe-1.jpg",
+			"width": 1199,
+			"height": 1501
+		},
+		{
+			"@type": ["WebPage", "FAQPage"],
+			"@id": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#webpage",
+			"url": "https://joyfoodsunshine.com/cheesy-pretzel-bites/",
+			"name": "Cheesy Homemade Pretzel Bites - JoyFoodSunshine",
+			"isPartOf": { "@id": "https://joyfoodsunshine.com/#website" },
+			"primaryImageOfPage": {
+				"@id": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#primaryimage"
+			},
+			"datePublished": "2019-09-08T08:00:27+00:00",
+			"dateModified": "2021-07-01T22:24:00+00:00",
+			"description": "In this cheese soft pretzel bites recipe, homemade pretzel dough is wrapped around cheddar cheese, topped with salt & brushed with butter.",
+			"breadcrumb": {
+				"@id": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#breadcrumb"
+			},
+			"mainEntity": [
+				{
+					"@id": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#faq-question-1625175991122"
+				},
+				{
+					"@id": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#faq-question-1625175997017"
+				},
+				{
+					"@id": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#faq-question-1625176002401"
+				},
+				{
+					"@id": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#faq-question-1625176149004"
+				},
+				{
+					"@id": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#faq-question-1625176154236"
+				}
+			],
+			"inLanguage": "en-US",
+			"potentialAction": [
+				{
+					"@type": "ReadAction",
+					"target": ["https://joyfoodsunshine.com/cheesy-pretzel-bites/"]
+				}
+			]
+		},
+		{
+			"@type": "BreadcrumbList",
+			"@id": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#breadcrumb",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"name": "Home",
+					"item": "https://joyfoodsunshine.com/"
+				},
+				{
+					"@type": "ListItem",
+					"position": 2,
+					"name": "Cheesy Homemade Pretzel Bites"
+				}
+			]
+		},
+		{
+			"@type": "Article",
+			"@id": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#article",
+			"isPartOf": {
+				"@id": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#webpage"
+			},
+			"author": {
+				"@id": "https://joyfoodsunshine.com/#/schema/person/26aa1eec196fcfdeab13ab7a9999d220"
+			},
+			"headline": "Cheesy Homemade Pretzel Bites",
+			"datePublished": "2019-09-08T08:00:27+00:00",
+			"dateModified": "2021-07-01T22:24:00+00:00",
+			"wordCount": 2138,
+			"commentCount": 8,
+			"publisher": { "@id": "https://joyfoodsunshine.com/#organization" },
+			"image": {
+				"@id": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#primaryimage"
+			},
+			"thumbnailUrl": "https://joyfoodsunshine.com/wp-content/uploads/2019/09/homemade-soft-pretzel-bites-recipe-1.jpg",
+			"keywords": ["appetizer", "bread"],
+			"articleSection": ["Appetizers", "Bread", "Recipe Videos", "Recipes"],
+			"inLanguage": "en-US",
+			"potentialAction": [
+				{
+					"@type": "CommentAction",
+					"name": "Comment",
+					"target": [
+						"https://joyfoodsunshine.com/cheesy-pretzel-bites/#respond"
+					]
+				}
+			]
+		},
+		{
+			"@type": "Person",
+			"@id": "https://joyfoodsunshine.com/#/schema/person/26aa1eec196fcfdeab13ab7a9999d220",
+			"name": "Laura",
+			"sameAs": ["https://joyfoodsunshine.com/about-laura/"]
+		},
+		{
+			"@type": "Question",
+			"@id": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#faq-question-1625175991122",
+			"position": 1,
+			"url": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#faq-question-1625175991122",
+			"name": "Can pretzel dough be refrigerated?",
+			"answerCount": 1,
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Yes! you can refrigerate the pretzel bites dough in a bowl tightly covered with plastic wrap. The dough will rise a little bit in the fridge. When you are ready to bake, remove the dough from the fridge to let it complete its rise and come to room temperature, then proceed with the recipe.\u00a0",
+				"inLanguage": "en-US"
+			},
+			"inLanguage": "en-US"
+		},
+		{
+			"@type": "Question",
+			"@id": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#faq-question-1625175997017",
+			"position": 2,
+			"url": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#faq-question-1625175997017",
+			"name": "How long can I keep pretzel dough in the fridge?",
+			"answerCount": 1,
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "I recommend keeping the dough in the fridge for no more than 24 hours!\u00a0",
+				"inLanguage": "en-US"
+			},
+			"inLanguage": "en-US"
+		},
+		{
+			"@type": "Question",
+			"@id": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#faq-question-1625176002401",
+			"position": 3,
+			"url": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#faq-question-1625176002401",
+			"name": "How is a pretzel different from bread?",
+			"answerCount": 1,
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "A lot of people wonder how a soft pretzel is different from bread! The answer is that the dough is boiled before it is baked!\u00a0 Boiling the dough in the\u00a0baking soda &amp; water bath is the\u00a0step in this recipe that gives this Homemade Pretzel Bread it\u2019s pretzel-y identity!",
+				"inLanguage": "en-US"
+			},
+			"inLanguage": "en-US"
+		},
+		{
+			"@type": "Question",
+			"@id": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#faq-question-1625176149004",
+			"position": 4,
+			"url": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#faq-question-1625176149004",
+			"name": "Can I freeze pretzel bites?",
+			"answerCount": 1,
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Yes! These pretzel bites can be frozen in an airtight container for up to 2 months.\u00a0",
+				"inLanguage": "en-US"
+			},
+			"inLanguage": "en-US"
+		},
+		{
+			"@type": "Question",
+			"@id": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#faq-question-1625176154236",
+			"position": 5,
+			"url": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#faq-question-1625176154236",
+			"name": "How do you reheat soft pretzel bites?",
+			"answerCount": 1,
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "There are two ways to reheat this pretzel bites recipe:\u00a0<br/><strong>In the microwave.\u00a0</strong>Simply warm the pretzel bites in the microwave for 15 seconds if they have been kept at room temperature, 30 seconds if they have been stored in the refrigerator, and 60 seconds if they have been frozen.\u00a0<br/><strong>In the oven.\u00a0</strong>Preheat the oven to 25o degrees F. Place pretzel bites on a baking sheet or in a baking pan and cover with foil. Bake for 15-30 minutes until they are warmed through.\u00a0",
+				"inLanguage": "en-US"
+			},
+			"inLanguage": "en-US"
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"name": "Cheese-Stuffed Pretzel Bites",
+			"author": { "@type": "Person", "name": "Laura" },
+			"description": "This cheese-stuffed soft pretzel bites recipe is the best! Homemade pretzel dough is wrapped around cheddar cheese, topped with sea salt and brushed with butter. Serve them as an appetizer, snack or on the side of your favorite bowl of soup.",
+			"datePublished": "2019-09-08T02:00:27+00:00",
+			"image": [
+				"https://joyfoodsunshine.com/wp-content/uploads/2019/09/homemade-soft-pretzel-bites-recipe-1x1-1.jpg",
+				"https://joyfoodsunshine.com/wp-content/uploads/2019/09/homemade-soft-pretzel-bites-recipe-1x1-1-500x500.jpg",
+				"https://joyfoodsunshine.com/wp-content/uploads/2019/09/homemade-soft-pretzel-bites-recipe-1x1-1-500x375.jpg",
+				"https://joyfoodsunshine.com/wp-content/uploads/2019/09/homemade-soft-pretzel-bites-recipe-1x1-1-480x270.jpg"
+			],
+			"video": {
+				"name": "Cheesy Homemade Pretzel Bites",
+				"description": "Cheese-stuffed soft pretzel bites! In this recipe, homemade pretzel dough is wrapped around cheddar cheese, topped with sea salt and brushed with butter. Serve them as an appetizer, snack or on the side of your favorite bowl of soup.",
+				"thumbnailUrl": "https://mediavine-res.cloudinary.com/image/upload/s--0PwWxObA--/c_limit,f_auto,fl_lossy,h_1080,q_auto,w_1920/v1625176599/bhxjd9zl8wgkktjvdwws.jpg",
+				"contentUrl": "https://embed.mediavine.com/videos/xt99xniw4c46a9zyjyo7",
+				"uploadDate": "2021-07-01T22:06:04+00:00",
+				"duration": "PT134S",
+				"@type": "VideoObject"
+			},
+			"recipeYield": ["16", "16 pretzel bites"],
+			"prepTime": "PT20M",
+			"cookTime": "PT15M",
+			"totalTime": "PT95M",
+			"recipeIngredient": [
+				"2 \u00bc tsp yeast",
+				"1 cup warm water (105-110 degrees)",
+				"3 TBS brown sugar",
+				"2 TBS whole milk (room temperature)",
+				"3 TBS butter (melted)",
+				"1 tsp sea salt",
+				"3 cups all-purpose flour",
+				"8 oz cabot sharp cheddar cheese (cut into \u00bd\u201d cubes)",
+				"4 quarts water",
+				"\u00bd cup baking soda",
+				"coarse sea salt ((to taste))",
+				"2 TBS butter (melted)"
+			],
+			"recipeInstructions": [
+				{
+					"@type": "HowToStep",
+					"text": "Combine yeast, water, and brown sugar in the bowl of a standing mixer fitted with the dough hook. Stir and let stand for 5 minutes (until foamy).",
+					"name": "Combine yeast, water, and brown sugar in the bowl of a standing mixer fitted with the dough hook. Stir and let stand for 5 minutes (until foamy).",
+					"url": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#wprm-recipe-17476-step-0-0"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "While yeast is proofing, melt butter in a microwave-safe bowl. Mix in milk and set aside.",
+					"name": "While yeast is proofing, melt butter in a microwave-safe bowl. Mix in milk and set aside.",
+					"url": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#wprm-recipe-17476-step-0-1"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Once yeast is proofed, add milk/butter to yeast mixture and mix on low speed with dough hook until just combined.",
+					"name": "Once yeast is proofed, add milk/butter to yeast mixture and mix on low speed with dough hook until just combined.",
+					"url": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#wprm-recipe-17476-step-0-2"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Add salt and flour and mix with dough hook until flour is fully incorporated.",
+					"name": "Add salt and flour and mix with dough hook until flour is fully incorporated.",
+					"url": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#wprm-recipe-17476-step-0-3"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Knead in a mixer until the dough forms a slightly tacky, but firm ball, you may need to add a little more flour 1 TBS at a time, but be careful, you want the dough to be a little tacky but not too sticky to handle.",
+					"name": "Knead in a mixer until the dough forms a slightly tacky, but firm ball, you may need to add a little more flour 1 TBS at a time, but be careful, you want the dough to be a little tacky but not too sticky to handle.",
+					"url": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#wprm-recipe-17476-step-0-4"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Oil a large bowl, place the dough ball in the bowl, and cover with a damp towel in a warm place to let rise for one hour or until doubled in size.",
+					"name": "Oil a large bowl, place the dough ball in the bowl, and cover with a damp towel in a warm place to let rise for one hour or until doubled in size.",
+					"url": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#wprm-recipe-17476-step-0-5"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "After dough has doubled in size, preheat oven to 400 degrees F and grease a large baking pan, set aside.",
+					"name": "After dough has doubled in size, preheat oven to 400 degrees F and grease a large baking pan, set aside.",
+					"url": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#wprm-recipe-17476-step-0-6"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Chop the cheese into 16, \u00bd\u201d cubes, set aside. (there will be extra cheese)",
+					"name": "Chop the cheese into 16, \u00bd\u201d cubes, set aside. (there will be extra cheese)",
+					"url": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#wprm-recipe-17476-step-0-7"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Remove the dough from the bowl and gently press out the air bubbles.",
+					"name": "Remove the dough from the bowl and gently press out the air bubbles.",
+					"url": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#wprm-recipe-17476-step-0-8"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Make balls of dough the same size (NOTE: I recommend using a food scale to do this. The total weight of the dough comes out to be about 800 g, so each bite should weigh about 50 g).",
+					"name": "Make balls of dough the same size (NOTE: I recommend using a food scale to do this. The total weight of the dough comes out to be about 800 g, so each bite should weigh about 50 g).",
+					"url": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#wprm-recipe-17476-step-0-9"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Bring 4 quarts of water to a boil. When the water is boiling, slowly add the baking soda a little bit at a time (Be careful not to add too much at once or you will have a baking soda/water explosion)!",
+					"name": "Bring 4 quarts of water to a boil. When the water is boiling, slowly add the baking soda a little bit at a time (Be careful not to add too much at once or you will have a baking soda/water explosion)!",
+					"url": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#wprm-recipe-17476-step-0-10"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Form each dough portion into a round, flat disc. Add one piece of cheese onto each disc and form a ball around the cheese. Make sure to pinch of any seems and roll them into smooth balls so no cheese can leak out. (Do not let it rise at all here! Straight from forming the ball into the water). \u2028Complete with all 16 bites.",
+					"name": "Form each dough portion into a round, flat disc. Add one piece of cheese onto each disc and form a ball around the cheese. Make sure to pinch of any seems and roll them into smooth balls so no cheese can leak out. (Do not let it rise at all here! Straight from forming the ball into the water). \u2028Complete with all 16 bites.",
+					"url": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#wprm-recipe-17476-step-0-11"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Drop one of the pretzel bites into the boiling baking soda water. Boil for 60 seconds on each side, turning it once to guarantee both sides are covered. Use a slotted spoon to drain the excess water from the dough and place it on the prepared baking sheet.",
+					"name": "Drop one of the pretzel bites into the boiling baking soda water. Boil for 60 seconds on each side, turning it once to guarantee both sides are covered. Use a slotted spoon to drain the excess water from the dough and place it on the prepared baking sheet.",
+					"url": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#wprm-recipe-17476-step-0-12"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Immediately sprinkle coarse sea salt over the pretzel bites to your specific tastes.",
+					"name": "Immediately sprinkle coarse sea salt over the pretzel bites to your specific tastes.",
+					"url": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#wprm-recipe-17476-step-0-13"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Repeat with each pretzel bite until you have used them all. (Do NOT let it rise here, the bites need to go straight from the boiling water into the oven. I recommend baking 8 at a time, so they don\u2019t have the opportunity to rise).",
+					"name": "Repeat with each pretzel bite until you have used them all. (Do NOT let it rise here, the bites need to go straight from the boiling water into the oven. I recommend baking 8 at a time, so they don\u2019t have the opportunity to rise).",
+					"url": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#wprm-recipe-17476-step-0-14"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Bake the pretzel bites for 12-15 minutes, rotating the baking sheet once halfway through baking. The bites are done when they are browned and bounce back when touched.",
+					"name": "Bake the pretzel bites for 12-15 minutes, rotating the baking sheet once halfway through baking. The bites are done when they are browned and bounce back when touched.",
+					"url": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#wprm-recipe-17476-step-0-15"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Once removed from the oven, immediately brush the tops of the bites with melted butter. Transfer to a wire rack to cool just enough to enjoy!",
+					"name": "Once removed from the oven, immediately brush the tops of the bites with melted butter. Transfer to a wire rack to cool just enough to enjoy!",
+					"url": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#wprm-recipe-17476-step-0-16"
+				}
+			],
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "5",
+				"ratingCount": "1"
+			},
+			"recipeCategory": ["Appetizer", "bread", "Side Dish"],
+			"recipeCuisine": ["American"],
+			"keywords": "cheese pretzel bites, homemade pretzel bites, Pretzel bites, pretzel bites recipe, soft pretzel bites",
+			"nutrition": {
+				"@type": "NutritionInformation",
+				"servingSize": "1 pretzel bite",
+				"calories": "186 kcal",
+				"carbohydrateContent": "21 g",
+				"proteinContent": "6 g",
+				"fatContent": "9 g",
+				"saturatedFatContent": "5 g",
+				"cholesterolContent": "25 mg",
+				"sodiumContent": "1305 mg",
+				"fiberContent": "1 g",
+				"sugarContent": "2 g"
+			},
+			"@id": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#recipe",
+			"isPartOf": {
+				"@id": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#article"
+			},
+			"mainEntityOfPage": "https://joyfoodsunshine.com/cheesy-pretzel-bites/#webpage"
+		}
+	]
+}

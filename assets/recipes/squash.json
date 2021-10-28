@@ -1,0 +1,312 @@
+{
+	"@context": "https://schema.org",
+	"@graph": [
+		{
+			"@type": "Organization",
+			"@id": "https://joyfoodsunshine.com/#organization",
+			"name": "JoyFoodSunshine",
+			"url": "https://joyfoodsunshine.com/",
+			"sameAs": [
+				"https://www.facebook.com/joyfoodsunshine/",
+				"https://www.instagram.com/joyfoodsunshine/",
+				"https://www.pinterest.com/joyfoodsunshine/",
+				"https://twitter.com/joyfoodsunshine"
+			],
+			"logo": {
+				"@type": "ImageObject",
+				"@id": "https://joyfoodsunshine.com/#logo",
+				"inLanguage": "en-US",
+				"url": "https://joyfoodsunshine.com/wp-content/uploads/2017/01/NewLogo.png",
+				"contentUrl": "https://joyfoodsunshine.com/wp-content/uploads/2017/01/NewLogo.png",
+				"width": 1958,
+				"height": 733,
+				"caption": "JoyFoodSunshine"
+			},
+			"image": { "@id": "https://joyfoodsunshine.com/#logo" }
+		},
+		{
+			"@type": "WebSite",
+			"@id": "https://joyfoodsunshine.com/#website",
+			"url": "https://joyfoodsunshine.com/",
+			"name": "JoyFoodSunshine",
+			"description": "Recipes for real life.",
+			"publisher": { "@id": "https://joyfoodsunshine.com/#organization" },
+			"potentialAction": [
+				{
+					"@type": "SearchAction",
+					"target": {
+						"@type": "EntryPoint",
+						"urlTemplate": "https://joyfoodsunshine.com/?s={search_term_string}"
+					},
+					"query-input": "required name=search_term_string"
+				}
+			],
+			"inLanguage": "en-US"
+		},
+		{
+			"@type": "ImageObject",
+			"@id": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#primaryimage",
+			"inLanguage": "en-US",
+			"url": "https://joyfoodsunshine.com/wp-content/uploads/2021/10/butternut-squash-mac-and-cheese-recipe-square-4.jpg",
+			"contentUrl": "https://joyfoodsunshine.com/wp-content/uploads/2021/10/butternut-squash-mac-and-cheese-recipe-square-4.jpg",
+			"width": 1200,
+			"height": 1200,
+			"caption": "Butternut Squash Mac & Cheese"
+		},
+		{
+			"@type": ["WebPage", "FAQPage"],
+			"@id": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#webpage",
+			"url": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/",
+			"name": "Butternut Squash Mac and Cheese - JoyFoodSunshine",
+			"isPartOf": { "@id": "https://joyfoodsunshine.com/#website" },
+			"primaryImageOfPage": {
+				"@id": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#primaryimage"
+			},
+			"datePublished": "2021-10-20T08:00:00+00:00",
+			"dateModified": "2021-10-20T12:27:38+00:00",
+			"description": "Butternut squash mac and cheese is creamy, cheesy & has butternut squash blended in the sauce for added nutrition. Easy to make in 30 min!",
+			"breadcrumb": {
+				"@id": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#breadcrumb"
+			},
+			"mainEntity": [
+				{
+					"@id": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#faq-question-1632347722650"
+				},
+				{
+					"@id": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#faq-question-1632347733733"
+				},
+				{
+					"@id": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#faq-question-1632347734619"
+				}
+			],
+			"inLanguage": "en-US",
+			"potentialAction": [
+				{
+					"@type": "ReadAction",
+					"target": [
+						"https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/"
+					]
+				}
+			]
+		},
+		{
+			"@type": "BreadcrumbList",
+			"@id": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#breadcrumb",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"name": "Home",
+					"item": "https://joyfoodsunshine.com/"
+				},
+				{
+					"@type": "ListItem",
+					"position": 2,
+					"name": "Butternut Squash Mac and Cheese"
+				}
+			]
+		},
+		{
+			"@type": "Article",
+			"@id": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#article",
+			"isPartOf": {
+				"@id": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#webpage"
+			},
+			"author": {
+				"@id": "https://joyfoodsunshine.com/#/schema/person/26aa1eec196fcfdeab13ab7a9999d220"
+			},
+			"headline": "Butternut Squash Mac and Cheese",
+			"datePublished": "2021-10-20T08:00:00+00:00",
+			"dateModified": "2021-10-20T12:27:38+00:00",
+			"wordCount": 1541,
+			"commentCount": 0,
+			"publisher": { "@id": "https://joyfoodsunshine.com/#organization" },
+			"image": {
+				"@id": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#primaryimage"
+			},
+			"thumbnailUrl": "https://joyfoodsunshine.com/wp-content/uploads/2021/10/butternut-squash-mac-and-cheese-recipe-square-4.jpg",
+			"articleSection": [
+				"Cheese",
+				"Fall Recipes",
+				"Main Dish",
+				"Pasta Recipes",
+				"Recipe Videos",
+				"Recipes",
+				"Side Dish",
+				"Vegetables"
+			],
+			"inLanguage": "en-US",
+			"potentialAction": [
+				{
+					"@type": "CommentAction",
+					"name": "Comment",
+					"target": [
+						"https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#respond"
+					]
+				}
+			]
+		},
+		{
+			"@type": "Person",
+			"@id": "https://joyfoodsunshine.com/#/schema/person/26aa1eec196fcfdeab13ab7a9999d220",
+			"name": "Laura",
+			"sameAs": ["https://joyfoodsunshine.com/about-laura/"]
+		},
+		{
+			"@type": "Question",
+			"@id": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#faq-question-1632347722650",
+			"position": 1,
+			"url": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#faq-question-1632347722650",
+			"name": "What cheeses go well together for mac and cheese?",
+			"answerCount": 1,
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "My favorite is a mixture of sharp cheddar and gouda cheese. There are so many possibilities - gruyere, cream cheese, pepper Jack, Colby jack, cheddar, etc. ",
+				"inLanguage": "en-US"
+			},
+			"inLanguage": "en-US"
+		},
+		{
+			"@type": "Question",
+			"@id": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#faq-question-1632347733733",
+			"position": 2,
+			"url": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#faq-question-1632347733733",
+			"name": "Can I double this recipe?",
+			"answerCount": 1,
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Yes, you can easily double this recipe to feed a crowd.",
+				"inLanguage": "en-US"
+			},
+			"inLanguage": "en-US"
+		},
+		{
+			"@type": "Question",
+			"@id": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#faq-question-1632347734619",
+			"position": 3,
+			"url": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#faq-question-1632347734619",
+			"name": "Can you freeze butternut mac and cheese?",
+			"answerCount": 1,
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Yes, store leftovers in the freezer in an airtight container for up to 2 months. Reheat in the microwave or oven set to warm.",
+				"inLanguage": "en-US"
+			},
+			"inLanguage": "en-US"
+		},
+		{
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"name": "Butternut Squash Mac and Cheese",
+			"author": { "@type": "Person", "name": "Laura" },
+			"description": "This butternut squash mac and cheese is creamy, cheesy and has butternut squash blended in the sauce for added nutrition and flavor. It\u2019s easy to make in under 30 minutes \u2013 you can even save time and energy by using frozen butternut squash (instead of peeling and cutting fresh squash).",
+			"datePublished": "2021-10-20T02:00:00+00:00",
+			"image": [
+				"https://joyfoodsunshine.com/wp-content/uploads/2021/10/butternut-squash-mac-and-cheese-recipe-square-4.jpg",
+				"https://joyfoodsunshine.com/wp-content/uploads/2021/10/butternut-squash-mac-and-cheese-recipe-square-4-500x500.jpg",
+				"https://joyfoodsunshine.com/wp-content/uploads/2021/10/butternut-squash-mac-and-cheese-recipe-square-4-500x375.jpg",
+				"https://joyfoodsunshine.com/wp-content/uploads/2021/10/butternut-squash-mac-and-cheese-recipe-square-4-480x270.jpg"
+			],
+			"video": {
+				"name": "Butternut Squash Mac and Cheese",
+				"description": "This butternut squash mac and cheese is creamy, cheesy and has butternut squash blended in the sauce for added nutrition and flavor. It\u2019s easy to make in under 30 minutes \u2013 you can even save time and energy by using frozen butternut squash (instead of peeling and cutting fresh squash).",
+				"thumbnailUrl": "https://mediavine-res.cloudinary.com/image/upload/s--5661DPUz--/c_limit,f_auto,fl_lossy,h_1080,q_auto,w_1920/v1633814133/mz8vsrfgvae0lwbnacey.jpg",
+				"contentUrl": "https://embed.mediavine.com/videos/miqtrl9kwbqzqeqqt5fa",
+				"uploadDate": "2021-10-09T21:20:40+00:00",
+				"duration": "PT95S",
+				"@type": "VideoObject"
+			},
+			"prepTime": "PT15M",
+			"cookTime": "PT25M",
+			"totalTime": "PT40M",
+			"recipeIngredient": [
+				"16 oz pasta (uncooked (macaroni, wagon wheels, shells, etc). )",
+				"1 lb. butternut squash (peeled and finely diced, or use frozen squash)",
+				"4 TBS salted butter (divided)",
+				"\u00bd cup onion  (finely diced)",
+				"1 tsp minced garlic",
+				"2 cups whole milk (divided)",
+				"2 TBS all-purpose flour",
+				"\u00bd to 1 tsp sea salt",
+				"12 oz shredded cheese ((3 cups) sharp cheddar, gouda, gruyere, etc.)"
+			],
+			"recipeInstructions": [
+				{
+					"@type": "HowToStep",
+					"text": "Cook pasta in salted water. Drain and set aside.",
+					"name": "Cook pasta in salted water. Drain and set aside.",
+					"url": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#wprm-recipe-37147-step-0-0"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Next, add 2 tablespoons of butter, the butternut squash, onion and garlic to a large pot cover and cook over medium high heat until the squash is soft (about 10 minutes)",
+					"name": "Next, add 2 tablespoons of butter, the butternut squash, onion and garlic to a large pot cover and cook over medium high heat until the squash is soft (about 10 minutes)",
+					"url": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#wprm-recipe-37147-step-0-1"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Transfer butternut squash mixture to the container of a Vitamix.",
+					"name": "Transfer butternut squash mixture to the container of a Vitamix.",
+					"url": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#wprm-recipe-37147-step-0-2"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Add 1 cup milk and blend until smooth.",
+					"name": "Add 1 cup milk and blend until smooth.",
+					"url": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#wprm-recipe-37147-step-0-3"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "In the pot, add the remaining 2 tablespoons butter and melt over medium heat.",
+					"name": "In the pot, add the remaining 2 tablespoons butter and melt over medium heat.",
+					"url": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#wprm-recipe-37147-step-0-4"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Add flour and sea salt and whisk until combined. Cook the flour mixture until it\u2019s bubbling.",
+					"name": "Add flour and sea salt and whisk until combined. Cook the flour mixture until it\u2019s bubbling.",
+					"url": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#wprm-recipe-37147-step-0-5"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Then, add the remaining 1 cup of milk and whisk to combine.",
+					"name": "Then, add the remaining 1 cup of milk and whisk to combine.",
+					"url": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#wprm-recipe-37147-step-0-6"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Add the butternut squash mixture and whisk until smooth.",
+					"name": "Add the butternut squash mixture and whisk until smooth.",
+					"url": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#wprm-recipe-37147-step-0-7"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Cook over medium heat until it begins to thicken.",
+					"name": "Cook over medium heat until it begins to thicken.",
+					"url": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#wprm-recipe-37147-step-0-8"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Once it has slightly thickened, whisk in the cheese until melted.",
+					"name": "Once it has slightly thickened, whisk in the cheese until melted.",
+					"url": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#wprm-recipe-37147-step-0-9"
+				},
+				{
+					"@type": "HowToStep",
+					"text": "Add cooked pasta to the cheese sauce, stir and serve.",
+					"name": "Add cooked pasta to the cheese sauce, stir and serve.",
+					"url": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#wprm-recipe-37147-step-0-10"
+				}
+			],
+			"recipeCategory": ["Main Course", "Side Dish"],
+			"recipeCuisine": ["American"],
+			"suitableForDiet": ["https://schema.org/VegetarianDiet"],
+			"keywords": "butternut mac and cheese, butternut squash mac and cheese, butternut squash mac and cheese recipe",
+			"@id": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#recipe",
+			"isPartOf": {
+				"@id": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#article"
+			},
+			"mainEntityOfPage": "https://joyfoodsunshine.com/butternut-squash-mac-and-cheese/#webpage"
+		}
+	]
+}

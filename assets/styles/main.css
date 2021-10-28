@@ -23,6 +23,9 @@ body>div>button:hover {
   filter: brightness(96%);
 }
 
+.flip {
+  transform: scaleY(-1);
+}
 main {
   column-gap: 10px;
   display: flex;
