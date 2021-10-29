@@ -6,9 +6,9 @@ const recipes = [
 	'https://introweb.tech/assets/json/ghostCookies.json',
 	'https://introweb.tech/assets/json/birthdayCake.json',
 	'https://introweb.tech/assets/json/chocolateChip.json',
-	'./assets/recipes/brownies.json',
-	'./assets/recipes/squash.json',
-	'./assets/recipes/pretzel.json',
+	'assets/recipes/brownies.json',
+	'assets/recipes/squash.json',
+	'assets/recipes/pretzel.json',
 ];
 
 // Once all of the recipes that were specified above have been fetched, their
@@ -16,10 +16,10 @@ const recipes = [
 // keys as long as it's unique, one suggestion might but the URL itself
 const recipeData = {};
 
-let recipeTags = []
+let recipeTags = [];
 
-const button = document.querySelector('button')
-const arrow = document.querySelector('img')
+const button = document.querySelector('button');
+const arrow = document.querySelector('img');
 
 window.addEventListener('DOMContentLoaded', init);
 
@@ -70,9 +70,9 @@ async function fetchRecipes() {
 
 const show = (num) => {
 	const main = document.querySelector('main');
-	recipeTags.forEach(element => element.remove())
-	const elems = recipeTags.slice(0,num)
-	elems.forEach(element => main.appendChild(element))
+	recipeTags.forEach(element => element.remove());
+	const elems = recipeTags.slice(0,num);
+	elems.forEach(element => main.appendChild(element));
 }
 
 function createRecipeCards() {
@@ -86,13 +86,13 @@ function createRecipeCards() {
 	for (let key in recipeData) {
 		const recipe = document.createElement('recipe-card');
 		recipe.data = recipeData[key];
-		recipeTags.push(recipe)
+		recipeTags.push(recipe);
 	}
 
-	show(3)
+	show(3);
 }
 
-let hidden = true
+let hidden = true;
 
 function bindShowMore() {
 	// This function is also called for you up above.
@@ -106,19 +106,18 @@ function bindShowMore() {
 
   const onClick = () => {
 		if (hidden) {
-			show(6)
-			button.innerHTML = 'Show less'
-			arrow.classList.add('flip')
+			show(6);
+			button.innerHTML = 'Show less';
+			arrow.classList.add('flip');
 		} else {
-			show(3)
-			button.innerHTML = 'Show more'
-			arrow.classList.remove('flip')
-
+			show(3);
+			button.innerHTML = 'Show more';
+			arrow.classList.remove('flip');
 		}
-		hidden = !hidden
+		hidden = !hidden;
 
   }
   
-  button.addEventListener('click', onClick)
+  button.addEventListener('click', onClick);
 
 }
