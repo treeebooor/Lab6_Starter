@@ -146,7 +146,7 @@ class RecipeCard extends HTMLElement {
       rating.appendChild(ratingValue);
 
       const ratingStars = document.createElement('img');
-      ratingStars.src = `/assets/images/icons/${stars}-star.svg`;
+      ratingStars.src = `https://raw.githubusercontent.com/treeebooor/Lab6_Starter/main/assets/images/icons/${stars}-star.svg`;
       ratingStars.alt = `${stars} stars`;
       rating.appendChild(ratingStars);
 
